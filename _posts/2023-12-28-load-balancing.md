@@ -5,6 +5,11 @@ title: Load Balancing
 category: tech
 tags: [ 'tutorial' ]
 ---
+
+![Alt text](/img/load_balancing_1.png)
+
+*Image reference from: https://www.cloudns.net/blog/load-balancing/*
+
 # Load Balancing
 Load balancing is the process of distributing network traffic across multiple servers. 
 It helps to ensure that no single server is overloaded with too much demand.
