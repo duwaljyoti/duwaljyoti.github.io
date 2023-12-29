@@ -59,6 +59,7 @@ lines: # You can add HTML Tags in the Text
   - text: "First, solve the problem. Then, write the code. – John Johnson"
   - text: "Everybody should learn to program a computer because it teaches you how to think. – Steve Jobs"
   - text: "Talk is cheap. Show me the code. ― Linus Torvalds"
+  - text: "If, at first, you do not succeed, call it version 1.0. ― Khayri R.R. Woulfe"
 
 me-img: "/img/jetpacktocat.png"
 
