@@ -135,3 +135,8 @@ to optimize performance and efficiently handle incoming traffic for different us
 
 ### Services of AWS as a load balancer
 We can use various services of AWS to perform load balancing.
+Shortly, auto scaling and load balancing can be achieved with the help of Ec2 instance, AMI, Launch template,
+Auto scaling groups.
+
+This video explains in a good way to do that.
+
