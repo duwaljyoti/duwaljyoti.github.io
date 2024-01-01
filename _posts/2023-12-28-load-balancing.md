@@ -138,5 +138,5 @@ We can use various services of AWS to perform load balancing.
 Shortly, auto scaling and load balancing can be achieved with the help of Ec2 instance, AMI, Launch template,
 Auto scaling groups.
 
-This video explains in a good way to do that.
+[This video](https://www.youtube.com/watch?v=cf9jQc4xzpo&ab_channel=Academind) explains in a good way to do that.
 
