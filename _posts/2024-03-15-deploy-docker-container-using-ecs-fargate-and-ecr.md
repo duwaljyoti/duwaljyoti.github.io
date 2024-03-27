@@ -8,6 +8,7 @@ What is ECR and ECS and do I need to use ECR and ECS? Are not there other platfo
 
 ECR is a fully managed Docker container registry AWS which allows you to store, manage, and deploy Docker container images securely.
 Yes, there are similar services like ECR, There are other platforms like,
+
 1) Google Container Registry (GCR)
 
 2) Azure Container Registry (ACR)
@@ -22,6 +23,7 @@ Yes, there are similar services like ECR, There are other platforms like,
 
 ECS is a fully managed container orchestration service from AWS which allows you to run, manage, and scale Docker containers in a highly available and secure environment.
 Yes, there are similar services like ECS, There are other platforms like,
+
 1) Google Kubernetes Engine (GKE)
 
 2) Azure Kubernetes Service (AKS)
@@ -35,6 +37,7 @@ Yes, there are similar services like ECS, There are other platforms like,
 5) Docker Swarm
 
 Below are a few benefits of deploying with ECS, ECR over traditional deployment method.
+
 1) Containerization
 
 2) Scalability
@@ -83,13 +86,13 @@ On the creation of the ECR repository, you will be redirected to the repository 
 
 and you will be able to see the repository you just created, which will have a URI that looks sth like below:
 
-<id_of_the_ecr_repo>.dkr.ecr.us-east-2.amazonaws.com/my_test_app
+id_of_the_ecr_repo.dkr.ecr.us-east-2.amazonaws.com/my_test_app
 
 
 ### Tag the image
 docker tag <image_name> <your_ecr_uri>
 
-docker tag my_test_app <id_of_the_ecr_repo>.dkr.ecr.us-east-2.amazonaws.com/my_test_app
+docker tag my_test_app id_of_the_ecr_repo.dkr.ecr.us-east-2.amazonaws.com/my_test_app
 
 ### Configure Docker CLI permission to access your AWS ac.
 Hit the following command in your terminal, this will ask you access and secret id, if you are a root account then 
