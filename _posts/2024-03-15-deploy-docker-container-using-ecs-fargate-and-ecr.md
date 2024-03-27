@@ -53,11 +53,11 @@ Clone the directory.
 Login to the aws console and search for ECR in the search box.
 
 
-![img.png](../img/march_15/img.png)
+![img.png](/img/march_15/img.png)
 
 ### Create a repository there.
 
-![img_1.png](../img/march_15/img_1.png)
+![img_1.png](/img/march_15/img_1.png)
 
 On the creation of the ECR repository, you will be redirected to the repository list.
 
@@ -98,7 +98,7 @@ Before creating a fargate cluster, some of the reasons for selecting a fargate c
 Navigate to the ECS section in the AWS, select on create cluster.
 
 
-![img_2.png](../img/march_15/img_2.png)
+![img_2.png](/img/march_15/img_2.png)
 you can name anything to the cluster name, select fargate, leave other fields as they are and create.
 
 
@@ -125,14 +125,14 @@ Select the launch type for `Fargate`
 
 Add or select a security group which accepts 5000 port in incoming rule.
 
-![img_4.png](../img/march_15/img_4.png)
+![img_4.png](/img/march_15/img_4.png)
 
 Look for the public IP address and add :5000 in your browser to your app.
 
-![img_5.png](../img/march_15/img_5.png)
+![img_5.png](/img/march_15/img_5.png)
 
 
-![img_6.png](../img/march_15/img_6.png)
+![img_6.png](/img/march_15/img_6.png)
 
 ### Clear up all the resources
 
@@ -141,7 +141,7 @@ shutdown.
 
 Go the cluster
 
-![img_7.png](../img/march_15/img_7.png)
+![img_7.png](/img/march_15/img_7.png)
 
 Click on the tasks and select the tasks you have over there and stop them.
 Also make sure to
