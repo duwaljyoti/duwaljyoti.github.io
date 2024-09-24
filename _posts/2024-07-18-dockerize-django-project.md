@@ -6,7 +6,7 @@ first install a django project
 
 The structure should look sth like:
 
-![img_4.png](img_4.png)
+![img_4.png](/img/docker_django_project/img_4.png)
 
 add dockerfile
 
@@ -146,7 +146,7 @@ Now, enable the new configuration with the following command:
 Before building with docker, we should first configure the permission, since right now by default, you would
 get a permission error like this:
 
-![img_5.png](img_5.png),
+![img_5.png](/img/docker_django_project/img_5.png),
 check if docker group already exists with the following command:
 
 `getent group docker`
@@ -211,8 +211,12 @@ You would need three values here:
 ## Possible Improvements
 
 1) Multi Staged builds.
+
 2) Having separate deployment scripts for staging and production.
+
 3) Use AWS Cli tool to better manage the whole deployment process.
+
 4) Run test and linter before deploying.
+
 5) Also integrate Nginx and certbot in the docker container as well.
 
